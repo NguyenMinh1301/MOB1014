@@ -15,9 +15,9 @@ public class Bai5 {
         int numC = scanner.nextInt();
         
         int Max = numA;
-        if (numB > numA) {
+        if (numB > Max) {
             Max = numB;
-        } else if (numC > numA) {
+        } else if (numC > Max) {
             Max = numC;
         }
 

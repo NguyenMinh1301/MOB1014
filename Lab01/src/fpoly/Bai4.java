@@ -9,14 +9,14 @@ public class Bai4 {
         
         //Mời người dùng nhập 3 số bất kì
         System.out.print("Nhap so a: ");
-        double numA = (double)scanner.nextInt();
+        double numA = scanner.nextDouble();
         System.out.print("Nhap so b: ");
-        double numB = (double)scanner.nextInt();
+        double numB = scanner.nextDouble();
         System.out.print("Nhap so c: ");
-        double numC = (double)scanner.nextInt();
+        double numC = scanner.nextDouble();
         
         //Tính delta
-        double Delta = Math.sqrt(numB) - (double)4.0F * numA * numC;
+        double Delta = Math.pow(numB, 2) - (double)4.0F * numA * numC;
         System.out.println("Ket qua sau khi tinh delta la: " + Delta);
     }
 }

@@ -23,7 +23,7 @@ public class Bai1 {
                 //Nếu không phải là 1 số nguyên tố biến count++
                 count++;
                 break;
-            }                 
+            }
         }
         
         //Nếu biến count == 0 và số người dùng nhập vào lớn hơn 1, in ra kết quả

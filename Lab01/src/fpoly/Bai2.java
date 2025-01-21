@@ -14,7 +14,7 @@ public class Bai2 {
         int ChieuRong = scanner.nextInt();
         
         //Tính Chu vi và diện tích hình chữ nhật theo công thức
-        System.out.println("Chu vi cua hinh chu nhat la: " + (ChieuDai + ChieuRong) / 2);
+        System.out.println("Chu vi cua hinh chu nhat la: " + (ChieuDai + ChieuRong) * 2);
         System.out.println("Dien tich cua hinh chu nhat la: " + ChieuDai * ChieuRong);
     }
 }

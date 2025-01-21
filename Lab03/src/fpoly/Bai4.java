@@ -26,6 +26,7 @@ public class Bai4 {
         //Tạo đối tượng scanner và các biến
         Scanner scanner = new Scanner(System.in);
         int n;
+        
         //Mời người dùng nhập và kiểm tra
         try {
             System.out.print("Nhap so luong sinh vien: ");

@@ -39,10 +39,10 @@ public class Bai2 {
     public static void All() {
         System.out.println("Bang cuu chuong tu 1 den 10:");
         //Dùng 2 vòng for lồng để in ra bảng cửu chương từ [1-10]
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 2; i <= 9; i++) {
             //Chạy từ [1-10]
             System.out.println("\nBang cuu chuong " + i + ":");
-            for (int j = 1; j <= 10; j++) {
+            for (int j = 1; j <= 9; j++) {
                 //Chạy từ [1-10] và tính các phép tính của từng bảng cửu chương
                 System.out.println(i + " x " + j + " = " + (i * j));
             }
@@ -59,7 +59,7 @@ public class Bai2 {
         try {
             table = scanner.nextInt();
             //Chỉ cho nhập từ [1-10]
-            if (table < 1 || table > 10) {
+            if (table < 2 || table > 9) {
                 System.out.println("Vui long nhap so tu 1 den 10.");
                 return;
             }
@@ -70,7 +70,7 @@ public class Bai2 {
         }
 
         System.out.println("\nBang cuu chuong " + table + ":");
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 2; i <= 9; i++) {
             //Chạy từ [1-10] và tính các phép tính của từng bảng cửu chương
             System.out.println(table + " x " + i + " = " + (table * i));
         }

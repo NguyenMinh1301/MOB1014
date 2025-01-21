@@ -47,7 +47,7 @@ public class Bai4 {
         //Tính toán và in ra kết quả
         if (numA != 0) {
             //Nếu người dùng nhập một số khác 0 thì trương trình tính và lưu vào biến Delta
-            double Delta = Math.sqrt(numB) - (4 * numA * numC);
+            double Delta = Math.pow(numB, 2) - (4 * numA * numC);
             //Nếu Delta < 0 in ra kết quả
             if (Delta < 0) {
                 System.out.println("Phuong trinh vo nghiem!");
@@ -113,8 +113,7 @@ public class Bai4 {
             Choice = scanner.nextInt();
             switch (Choice) {
                 case 0:
-                    System.out.println("\t\tTam biet. Hen gap lai !");
-                    System.exit(0);
+                    System.out.println("\t\tTam biet. Hen gap lai !");                 
                     break;
                 case 1:
                     ChucNang1();

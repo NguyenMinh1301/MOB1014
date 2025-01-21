@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package fpoly;
 //Khai báo thư viện dùng Scanner
 import java.util.Scanner;
@@ -27,7 +23,7 @@ public class Bai2 {
         //Tính toán và in ra kết quả
         if (numA != 0) {
             //Nếu người dùng nhập một số khác 0 thì trương trình tính và lưu vào biến Delta
-            double Delta = Math.sqrt(numB) - (4 * numA * numC);
+            double Delta = Math.pow(numB, 2) - (4 * numA * numC);
             //Nếu Delta < 0 in ra kết quả
             if (Delta < 0) {
                 System.out.println("Phuong trinh vo nghiem!");

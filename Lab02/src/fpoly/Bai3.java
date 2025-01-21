@@ -10,7 +10,7 @@ public class Bai3 {
         
         //Mời người dụng nhập số điện sử dụng
         System.out.print("Nhap so dien da su dung: ");
-        float Kw = scanner.nextInt();
+        float Kw = scanner.nextFloat();
         
         //Nếu số điện <= 50 tính toán
         if (Kw <= 50) {

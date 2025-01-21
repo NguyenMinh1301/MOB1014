@@ -8,11 +8,15 @@ public class Bai3 {
         Scanner scanner = new Scanner(System.in);
         
         //Mời người dùng nhập cạnh
-        System.out.print("Nhap canh: ");
-        int Canh = scanner.nextInt();
+        System.out.print("Nhap chieu rong: ");
+        float rong = scanner.nextFloat();
+        System.out.print("Nhap chieu dai: ");
+        float dai = scanner.nextFloat();
+        System.out.print("Nhap chieu cao: ");
+        float cao = scanner.nextFloat();
         
         //Tính thể thích và in kết quả
-        int TheTich = Canh * Canh * Canh;      
+        float TheTich = rong * dai * cao;      
         System.out.print("The tich cua hinh la: " + TheTich);
     }
 }
