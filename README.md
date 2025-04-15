@@ -124,7 +124,7 @@ Mỗi lab đi kèm với mã nguồn hoàn chỉnh và tài liệu hướng dẫ
 ---
 ## Thông Tin Liên Hệ
 Nếu bạn có bất kỳ câu hỏi hoặc ý kiến nào, vui lòng liên hệ:
-- **Họ và tên**: [Nguyễn Quang Minh](https://nguyenminh8.wordpress.com/)
+
 - **Email**: nguyenminh1301.dev@gmail.com
 - **GitHub**: [NguyenMinh1301](https://github.com/NguyenMinh1301)
 
