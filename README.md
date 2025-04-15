@@ -1,4 +1,4 @@
-# Thực Hành Lập Trình Java
+# Thực Hành Lập Trình Java 1
 
 Dự án này chứa các bài thực hành lập trình Java dựa trên khóa học **MOB1014 – Lập Trình Java 1**. Mỗi bài lab tập trung vào một khía cạnh khác nhau của lập trình, từ cú pháp cơ bản đến lập trình hướng đối tượng nâng cao.
 
